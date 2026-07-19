@@ -48,7 +48,11 @@
 - UI: メガメニュー式グローバルナビ、カード型商品カルーセル、編集コンテンツ（ストーリー）ハブ、
   店舗検索（Google Maps埋め込み）— Starbucksのサイト構造を参考にしつつ配色・語彙は独自
 
-## サイト構成（横展開型、21ページ）
+## サイト構成（横展開型、33ページ）
+
+全商品タイルが商品詳細ページへリンクする（未実装の詳細ページへの仮リンク・非リンク静的
+タイルは商品には存在しない。`custom-order.html`のオーダー種別カードと`recruit.html`の
+職種カードのみ、商品ではないため非リンクの静的カードのまま）。
 
 | ファイル | 内容 |
 |---|---|
@@ -58,9 +62,21 @@
 | `products-cookware.html` | 鍋・調理器具一覧 |
 | `products-tableware.html` | 食器・うつわ一覧 |
 | `products-drinkware.html` | タンブラー・ドリンクウェア一覧 |
-| `product-detail-cutlery.html` | 看板スプーン商品詳細 |
-| `product-detail-knife.html` | 看板包丁商品詳細 |
-| `product-detail-drinkware.html` | 看板タンブラー商品詳細 |
+| `product-detail-cutlery.html` | 鏡面ディナースプーン&フォーク セット詳細（看板） |
+| `product-detail-teaspoon.html` | 鏡面ティースプーン詳細 |
+| `product-detail-table-knife.html` | 鏡面テーブルナイフ詳細 |
+| `product-detail-knife.html` | 鏡面三徳包丁詳細（看板） |
+| `product-detail-gyuto.html` | 牛刀 240mm詳細 |
+| `product-detail-petty.html` | ペティナイフ 120mm詳細 |
+| `product-detail-cookware.html` | プレス一体成型 両手鍋詳細（看板） |
+| `product-detail-frypan.html` | プレスフライパン 26cm詳細 |
+| `product-detail-steamer.html` | 蒸し器プレート詳細 |
+| `product-detail-tableware.html` | 鏡面ボウル&漆器ボウル セット詳細 |
+| `product-detail-plate.html` | 鏡面プレート 大皿詳細 |
+| `product-detail-cup-saucer.html` | カップ&ソーサー詳細 |
+| `product-detail-drinkware.html` | 鏡面二重タンブラー詳細（看板） |
+| `product-detail-bottle.html` | 保温ボトル 500ml詳細 |
+| `product-detail-mug.html` | マグカップ詳細 |
 | `custom-order.html` | カスタムオーダー（名前入れ・用途別オーダーメイド） |
 | `gift.html` | ギフト特集 |
 | `stores.html` | 直売所・取扱店検索（Google Maps埋め込み） |
