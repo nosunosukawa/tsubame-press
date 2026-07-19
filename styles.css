@@ -129,18 +129,20 @@ h1, h2, h3, h4 {
 }
 .nav-logo__mark {
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
   color: var(--color-navy);
+  white-space: nowrap;
 }
 .nav-logo__mark span { color: var(--color-copper); }
 .nav-logo__sub {
-  font-size: 10px;
-  letter-spacing: 0.16em;
+  font-size: 8.5px;
+  letter-spacing: 0.02em;
   color: var(--color-silver);
   margin-top: 3px;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .nav-main {
@@ -155,8 +157,8 @@ h1, h2, h3, h4 {
 
 .nav-main__link {
   display: block;
-  padding: 27px 7px;
-  font-size: 13.5px;
+  padding: 27px 3px;
+  font-size: 12.5px;
   font-weight: 600;
   color: var(--color-ink);
   white-space: nowrap;
@@ -168,7 +170,7 @@ h1, h2, h3, h4 {
 .nav-utility {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 .nav-utility__link {
   font-size: 12px;
